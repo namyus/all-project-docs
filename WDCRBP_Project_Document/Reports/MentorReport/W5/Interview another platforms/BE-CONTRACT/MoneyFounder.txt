@@ -1,0 +1,61 @@
+<==Quy trình đăng ký thợ mộc==>
+
+Thay thế chỉ 1 cá nhân đứng ra đăng ký tài khoản:
+
+1. Đăng ký tài khoản & xét duyệt hồ sơ
+- Thợ mộc cần đăng ký trên nền tảng online.
+- Cung cấp thông tin cá nhân & hồ sơ:
+- CMND/CCCD(bắt buộc)
+- Hình ảnh sản phẩm đã từng làm(nếu có)
+- Giấy phép kinh doanh(bắt buộc)
+- Địa chỉ xưởng (nếu có)
+- Lệ phí đăng ký & kích hoạt tài khoản:
+- Phí xét duyệt hồ sơ & kích hoạt tài khoản: 250K
+- Phí đảm bảo hoạt động: Nạp tối thiểu 200K (50K bị giữ làm khoản đảm bảo).
+=> Sau khi kích hoạt tài khoản, có thể nhận đơn ngay nhưng không có ưu tiên hiển thị.
+=> Nếu không nhận đơn trong 1 tháng, tài khoản bị tạm ngưng, cần nạp lại 200K để kích hoạt lại.
+=> Không có ưu tiên đơn hàng ban đầu, muốn có lợi thế phải lên rank bằng điểm tích lũy.
+
+<==Cách nền tảng thu tiền từ thợ mộc==>
+
+1. Phí dịch vụ trên mỗi đơn hàng
+- Nền tảng thu phần trăm hoa hồng trên mỗi đơn:
+- Đơn nhỏ (<5 triệu): 10% phí.
+- Đơn lớn (5 - 10 triệu): 8% phí.
+- Đơn siêu lớn (>10 triệu): 5% phí.
+=> Không có ưu tiên hiển thị cho thợ mới.
+
+2.Hệ thống điểm thưởng & xếp hạng thợ mộc
+- Điểm được tính trên số đơn hoàn thành & chất lượng dịch vụ.
+- Khi đủ điểm, thợ mộc lên rank cao hơn & giảm phí dịch vụ:
+
+Rank	         | Điểm cần có/tháng        |   Số đơn ước tính/tháng       |   Phí nền tảng trên đơn hàng	|    Ưu tiên đơn hàng
+Đồng (mới vào)	 |        0                 |          0	            |               10%	                |    Không có ưu tiên
+Bạc	         |      10 điểm             |        10 đơn	            |               8%	                |    Có chút ưu tiên hiển thị
+Vàng	         |      30 điểm             |        30 đơn	            |               6%	                |    Hiển thị cao hơn,ưu tiên đơn hàng giá trị cao
+Pro	         | 50 điểm + đánh giá tốt   |  50 đơn + đánh giá tốt	    |               4%	                |    Có thêm đơn VIP
+Pro+	         | Top 1% thợ xuất sắc      |  Top 1% thợ xuất sắc	    |               2%	                |    Nhận đơn nhanh hơn & ưu tiên hiển thị
+
+=> Điểm được tính sau khi hoàn thành đơn và dựa theo hợp đồng và phản hồi của khách hàng.
+=> Không thể mua rank – muốn có ưu tiên phải tự hoàn thành đơn và đạt điểm.
+=> Kiểm soát việc lên rank quá nhanh thông qua hợp đồng.
+=> Mỗi tài khoản người dùng được yêu cầu 1 số điện thoại và 1 email xác nhận và đại chỉ kèm ảnh đại diện.
+=> Trong mỗi đơn hình thành để tính điểm thì đã có CMND người đặt và hợp đồng người giữ là nền tảng.
+
+3. Phí quảng cáo & hiển thị nổi bật
+- Thợ cá nhân muốn hiển thị cao hơn có thể trả tiền:
+- Hiển thị nổi bật trên trang chủ: 500K/tháng.
+- Gói "ưu tiên nhận đơn": 200K/tuần.
+
+4. Phí xử lý khiếu nại & bảo vệ giao dịch
+- Giữ lại 5% giá trị đơn khi có khiếu nại.
+- Thu thêm 3% nếu khách chọn dịch vụ bảo hành sản phẩm.
+
+5. Phí huỷ đơn & vi phạm
+- Huỷ đơn không lý do: Bị trừ 50K/lần.
+- Bị tố cáo gian lận: 
+   + Nặng : Khoá tài khoản vĩnh viễn.
+   + Nhẹ : 
+        - Spam đơn kiếm điểm: 200k
+        - ...
+- Tiền tip online: Nền tảng thu 5%.

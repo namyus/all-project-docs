@@ -1,0 +1,32 @@
+Database:
+- Thiếu field để tracking số lần đã đặt cọc và số tiền đặt cọc thể hiện kĩ có bao nhiêu giai đoạn và mỗi giai đoạn phải thể hiện rõ là bao nhiu phần trăm cho đợt thanh toán giai đoạn đó kế đó là trạng thái để biết là (state: chưa thanh toán hay thanh toán)?
+- Khi đặt 1 order thì làm sao cho order thể hiện được cần bao nhiu lần thanh toán?
+- Nếu config ở đâu để lấy ra deposit_number?
+- Đặt 1 service thì làm sao để biết đặt cọc bao nhiu lần và đặt cọc bao nhiêu tiền?
+- Vậy sau này thay đổi số lần thanh toán đặt cọc lên n lần thì làm sao
+- Phân biệt service-type service service-deposit
+- Service cần được suy nghĩ lại đổi service-type đổi sang service-name
+- Bảo hành và sửa chữa khác gì nhau
+- Bảo hành là khi còn trong thời gian còn bảo hành còn sửa chữa cần xác định rõ sửa chữa cho những đơn mình làm hay là đơn ngoài 
+- service với requested product khác nhau làm sao?
+- Requested product này thì nó đang thuộc service nào?
+- Phân biệt contractid và contract deposit_number
+- Điều chỉnh tùy chỉnh để config sẵn ra giá lun vì tùy chỉnh theo bản vẽ của xưởng của mình (cho thêm thời gian có thể hoàn thành sp)
+- Tùy chỉnh có sơn phủ, sơn màu, kích thước, loại gỗ 
+- Customization thì bỏ appointment do đã có đủ số liệu ra
+- Hổng cọc 60% mà cọc ít hơn được không? Nếu giao sớm hơn có được không?
+- Bussiness rule thể hiện:
+  + cọc nhiêu  
+  + ngày hẹn
+=> Được thì tiếp tục còn ko thì ngưng
+=> Sản phẩm tùy chỉnh thì bao lâu có thể gởi 
+- Phải có bước gặp nhau sau hợp đồng để có thể chốt được hợp đồng 
+- Hiểu kĩ appointment là làm gì?
+- Tạo 1 order liên quản tới bảo hành và sửa chữa bảng riêng tên là ServiceOrder => để có thể thể hiện được bảo hành sản phẩm thuộc order nào?
+- Xác định status cho 2 loại hình gia công và bảo hành sửa chữa khác nhau => 3 bảng order khác nhau => làm z để khi filter status sẽ rất khó
+- Nếu được thì bản gia công sẽ vẫn là order còn phải tách bảng order sửa chữa và bảo hành
+- Xác định kĩ giá vật liệu 
+- Địa chỉ nhận hàng có thể cho lưu nhiều địa chỉ ( tối đa là bao nhiu đó ) còn muốn sửa thì sẽ sửa lại trong 3 địa chỉ cũ
+- appointment luồng ngoài này thì luồng nào cũng có appointment 
+- Bussiness rule nên giới hạn đặt nhìu thì xử lý ra sao 
+- Bổ sung thời gian tối đa để sửa thiết kế và hợp đồng để ko lấn qua thời gian thực thiết

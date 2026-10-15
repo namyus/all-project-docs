@@ -1,0 +1,26 @@
+Ghi chú:
+	- Nền tảng ko có khả năng phản hồi người dùng khi feedback có thể xem duyệt những feedback đạt đủ yêu cầu nhưng chỉ woodworker phản hồi ( do là trung gian ) => quản lý nội dung feedback, việc phản hồi là do woodworker
+	- luồng hoàn tiền sau khi xử lý khiếu nại khi đặt hàng thanh công sau khi giao hàng trễ hay lắp đặt hay nhận hàng ko như hình vẽ ko như miêu tả đã gửi => câu hỏi: làm sao để bảo đảm quyền lợi người dùng kể cả khi sau khi giao sản phẩm => sự tin tưởng tuyệt đối vào bên trung gian thứ 3
+	- sửa context diagram => do set là woodworker chỉ sài 1 account (cùng 1 cty hay 1 cá nhân) thì chỉ 1 account nên woodworker chỉ thông qua 1 thằng ( xóa bớt woodworker chỉ giữ lại chủ)
+	- luồng mua hàng có sẵn và luồng có hàng trên platform chọn để thi công và có hàng trên platform nhưng customize thêm, personilazation 
+	- Thêm luồng hoàn tiền => hoặc thêm vào 4 luồng lớn khi đặt 
+	- Cô góp ý vẽ diagram để mũi tên ngắn cỡ chữ to ra 
+	- Chưa có tài khoản hay có tài khoản mà chưa đăng nhập người dùng vẫn có thể tìm kiếm sản phẩm chọn mua và chỉ đăng nhập hoặc đăng kí sau đạ thỏa mãn tìm kiếm dịch vụ hay sản phẩm yêu thích
+	- Suy nghĩ kĩ việc giữ hay bỏ systems hay không? do swinlane ko yêu cầu phải có systems
+	- nếu hoàn tiền hay cancel sẽ qua actor nào? => 
+	- systems config dựa trên sp có sẵn còn personal thì phải tính toán nên ko có bước giá dự kiến 
+	- luồng customize có config nhẹ (màu gỗ hay ...) và customize nặng thêm tủ nhỏ vào tủ lớn hay chia đôi gỗ
+	- Thêm state Delevering
+	- chia nhỏ state negotiated cho việc shipping day và bản thiết kế 
+
+cần sửa swinlane diagram main flow => usecases
+states chia nhỏ sửa từ lại ( trạng thái state nào còn thiếu bổ sung hết)
+context diagram sửa cho nhỏ lại ko để khoảng trống và bỏ bớt actor
+
+
+cần phân tích kĩ việc config và customize
+
+
+
+
+ 

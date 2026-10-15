@@ -1,0 +1,48 @@
+Quy trình đăng kí chạy?
+
+-Lên trụ sở để đăng ký (Q.2):
+
+ + được nhận 2 nón 1 áo => mua áo mưa phải bỏ thêm tiền => tổng cộng nếu full đồ nghề rẻ nhất 600 rưỡi tới 1 triệu ( trong có phí mở app và phí đồ nghề).
+
+ + Sau khi mở app thành công thì cần 200k đề kích hoạt tài khoản để được nhận cuốc => ko đủ 200k ko được nhận cuốc => bị bắt giữ 50k ko cho rút và 150k được rút nhưng sẽ ko có đơn => có thể đăng ký thủ tục xong chạy lun hoặc chạy sau đều được.
+
+ + Tài xế phải mở thẻ cave của vpbank bởi nó ko đánh thuế nó không thu tiền thuế mỗi tháng. 
+
+Lưu ý: nếu tài xế không bật hoạt động quá 1 tháng hoặc tài khoản ko nạp lại tiền thì sẽ ko nhận được cuốc và điểm thưởng tháng sẽ bị reset và rank tài xế sẽ về đồng.
+
+Cách tính điểm thưởng và lương theo cuốc?
+
+-Mức thời gian tính theo điểm:
+
+ + giờ cao điểm từ 6 => 9h sáng và 5 => 7h tối tính 2 điểm.
+  => giờ thường chỉ tính 1 điểm => giao đồ ăn 2 điểm.
+
+-Phí 2 loại:
+ 
+  + Ngắn: 3k7/1km(chưa thuế sấp xỉ 40%).
+  + Dài(trên 10km): 3k4/1km(chưa thuế sấp xỉ 40%) ( đường dài được +2 điểm).
+
+-Điểm thưởng theo ngày
+ + 1 ngày chạy được trên:
+  + Trên 30đ thì đc 50k.
+  + Trên 45đ thì đc 150k.
+  + Trên 60đ thì đc 300k.
+  + Trên 90đ thì đc 500k.
+   => Cấp số nhân và reset theo ngày. 
+
+Rank(đồng, bạc, vàng, pro, pro+)
+ - Tùy theo mức rank quyền lợi được nhiều hơn:
+  + Cuốc xe nổ nhiều hơn. 
+  + Thuế và thu phí mỗi cuốc ít đi.
+  + Thưởng tiền. 
+
+=> Giao đồ ăn khác với chở người ở chỗ giá giao hàng cố định và thuế hay thu thêm đều được ghi rõ => tiền khách hàng càng lớn thuế càng nhiều
+
+=> Giao hàng cồng kềnh chỉ được nhận thêm điểm hoặc tiền nếu thanh toán qua online.
+=> Trường hợp xin thêm khách hàng ko cho hoặc nhiều mà cồng kềnh quá mà giá thì ko đủ thì có thể hủy sẽ bị giảm cuốc.
+=> Tiền tip online sẽ bị ăn 5% theo giá tiền.
+=> Mọi số tiền khách hàng đi đêm nó không xử lý nhưng nếu bị tố nếu xin đểu => auto khóa tài khoản vĩnh viễn
+=> ưu đãi thu thêm tiền mà grab hay be hiện vd:
+ + cuốc xe tiết kiệm an toàn, hay nhanh, dịch vụ tốt => auto do tụi công ty ăn 
+ + tài xế chạy được đánh giá 5 sao nhiều thì sẽ được cơ hội nhận đơn sớm và nhanh nhất => Tiền khi giới thiệu tài xế an toàn và xịn sò sẽ bị công ty ăn nếu khách chọn dịch hiển thị
+

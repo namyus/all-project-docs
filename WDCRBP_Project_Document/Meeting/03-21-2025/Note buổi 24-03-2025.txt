@@ -1,0 +1,22 @@
+Database:
+- Mã tương ứng cho 1 dịch vụ cụ thể cho 1 sản phẩm cụ thể ko? 1 đơn hàng có nhiều sản phẩm ? Nên có mã bảo hành cho đơn hàng hay cho sản phẩm 
+- Trường hợp làm theo nhu cầu cá nhân thì đâu có sẵn trong bản request product? 
+- Làm 1 docx để online để thay đổi real time để cô có thể nắm được thay đổi theo thời gian và những gì nhóm đã sửa!
+- Backend nên đi trước Frontend
+
+Giao diện Web:
+X- Trang xưởng mộc nào có gói cao sẽ thể hiện như thế nào trên wedsite 
+X- Nên cho người dùng chọn email hay sdt otp và bỏ qua việc nhớ mật khẩu
+X- Sửa tài khoản thành ví hoặc giao dịch với ví làm 1 để có vừa có thể coi số tiền trong ví và lịch sử giao dịch
+X- Sửa duyệt lịch hẹn thành lịch hẹn và duyệt hợp đồng thành hợp đồng 
+- Có thể hiển thị thêm đơn giá
+- trạng thái nên để cụ thể 
+- Xem điều khoản hợp đồng 
+- Hiển thị rõ đơn hàng bảo hành 
+- Hiển thị rõ đã hoặc đang bảo hành 
+
+Hoàn thiện thực hiện chọn vẹn các luồng tính năng sau :
+- Đăng ký đăng nhập(cus) Luồng đăng ký thành woodworker Đăng ký làm theo mẫu 
+- Cần wed admin
+- Cần gói 
+- làm xong hoàn thiện luồng mua theo mẫu (đã thanh toán ko cần config)

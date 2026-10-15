@@ -1,0 +1,24 @@
+- Làm sao để sàn lọc chỉ còn 5 hay 6 ông thợ mộc phù hợp với request => dạng gửi form xí chỗ => reject nhiều ông xí chỗ(làm nhanh xem chậm) => đánh giá response sau khi form woodworker gửi mà xàm quá => để chống spam
+=> Khách hàng ko có được quyền chủ động 
+- Suy nghĩ có nên giữ chif account => refund và tiền công => xử lý khiếu nại như thế nào và ai làm và tiền ở đâu 
+- luồng personalization => có vòng lặp ở chỗ chọn woodworker thông qua response vì ko chọn được => phải coi thông tin cá nhân và sản phẩm mới có thể tiến đến chọn dịch vụ và sản phẩm 
+- luồng hủy phải suy nghĩ trong mỗi chỗ có vòng lặp => sau hợp đồng bản vẽ ko ưng => hủy thì sao
+- chia ra giai đoạn thiết kế và thi công có thể:
+sau giai đoạn đầu cọc 30% (do gặp và thiết kế tiền) sau khi tới thiết kế thanh toán 30%(tiền thi công) => phân tích kĩ => thi công lắp đặt bị khiếu nại thì refund bao nhiu % tiền hay làm gì tiếp
+- luồng cus và per nên được làm kĩ càng
+- luồng sửa chữa có 2 luồng:
++ ko phải hàng của mình nhưng request mình sửa chữa
++ hàng của mình request mình sửa 
+- luồng sản phẩm có sẵn mà bán tạm ngưng làm luồng chính 
+- vẽ luồng khiếu nại và gọi trong những luồng chính
+- hệ thông ko liên quan tới việc ai thiết kế bản vẽ đó là nội bộ công ty
+- 1 lần chỉ 1 request cho 1 thợ mộc hay ngược lại 
+- cần bao nhiu nhân viên quản lý nền tảng 
+- vận chuyển liên quan  tới logictic => nên sử dụng bên thứ 3 => ko thể ko có vận chuyển
+- thợ mộc hay bên thứ 3 làm? nếu đơn hàng thợ mộc ko ship
+- sử dụng bên thứ 3 nào => xử lý vận chuyển hàng cồng kènh và nhiều
+- phải có form đăng kí trở thành thợ mộc để có thể biết được thợ mộc nào có làm nhiều hay ít đơn 
+=>> để giải quyết bài toán thợ mộc cần ứng tiền và đơn hàng quá lớn
+- ràng buộc trong hợp đồng và suy nghĩ kĩ khiếu nại thì hợp đồng sử dụng như thế nào
+- flow xử lý khiếu nại sẽ có nhiều trường hợp 
+- hợp đồng

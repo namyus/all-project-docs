@@ -1,0 +1,51 @@
+				Biên bản họp ngày 14-02-2025
+- State cho từng đợt cọc
+	+ Bản vẽ và hợp đồng 
+	+ Thi cong xong
+	+ Ship tới nhà 
+
+- Hợp đồng: 
+- Bản vẽ và hợp đồng: 
+	+ trả platform 30% sau ngày nào đó 
+	=> tiền đề để thi công 
+- Thi cong xong: 
+	+ trả platform 30% sau ngày nào đó 
+	=> tiền đề để XN khach hang có dừng hay ko để ship 
+	câu hỏi mà hợp đồng xử lý
+	=> Bên thi cong tre han thi bi phat gì? ben khach hang dc nhan gi?
+	=> Bên khach hang dong tre tien thi bi gi? tho moc thi dc gi?
+- Ship tới nhà : 
+	+ trả platform 40% sau ngày nào đó 
+	=> xử lý khiếu nại nếu có 
+	=> nếu chọn api thứ 3 ship thì khách hàng tự gánh
+
+xác định bussiness rule:
+- lỗi vận chuyển thì khách hàng khiếu nại platform => gửi email hỏi về khiếu nại về sản phẩm của thợ mộc mà bị lỗi => thợ mộc tự chứng minh bản thân trong sách thông qua bằng chứng của họ và đòi quyền công dân trên ghn 
+
+Ship:
+- chia 2 state :
+	+ thợ tự bay mà giao 
+	+ api thứ 3 
+=> Luân chọn thợ tự bay => phải có ngày giao và thông tin đơn hàng lẫn hình ảnh đơn hàng để chứng minh => quay về hợp đồng có hẹn giữ thanh xuân hay ko ko thì 2 bên hoan hỉ còn có thì tính phí lên thợ mộc 
+
+- Quy trình:
+
+Thợ mộc cập nhật trạng thái "Sẵn sàng giao hàng" + 
+Thợ mộc tự quyết định phương thức vận chuyển  
+      ⬇  
+    ┌───────────────────────────────┐  
+    │ (A) Tự vận chuyển             │ → Thợ tự giao và cập nhật trạng thái  
+    ├───────────────────────────────┤  
+    │ (B) Thuê đơn vị vận chuyển    │ → Thợ thuê ship bên ngoài và báo tracking  
+    ├───────────────────────────────┤  
+    │ (C) Khách tự đến nhận         │ → Khách tự đến xưởng lấy hàng  
+    └───────────────────────────────┘  
+      ⬇  
+Khách hàng nhận hàng & xác nhận đơn thành công. Nếu có vấn đề → Kích hoạt khiếu nại  
+      ⬇  
+Hoàn tất đơn hàng, giải ngân tiền cho thợ
+
+Lắp đặt:
+ tự xử => platform chỉ xử lý khiếu nại thông hợp đồng 
+
+Hơp đồng phải có các cam kết của 2 bên liên quan đến vận chuyển. Hợp đồng là thứ quyết định mọi thứ và hạn chế tranh chấp

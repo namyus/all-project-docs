@@ -1,0 +1,56 @@
+Ghi chú
+
+[Thông tin cá nhân]
+- Võ Trọng Luân - SE171436 - luanvtse171436@fpt.edu.vn - 0971781359 - votrongluan
+- Nguyễn Đặng Phương Nam - SE - namndpse171442@fpt.edu.vn - 0906657671 - namhetzuize
+- Trần Việt Phúc - SE171429 - PhucTVSE171429@fpt.edu.vn - 0944595483 - Phuc-TV
+- Lê Nguyên An - SE - anlnse171475@fpt.edu.vn - 0902846869 - leanguyen2619
+- quynhtnn4@fpt.edu.vn
+
+[Các đường dẫn liên quan]
+- Repo API: https://github.com/Phuc-TV/SP25SE026_GSE48_WDCRBP_API
+- Repo Web: https://github.com/votrongluan/SP25SE026_GSE48_WDCRBP_WebApp
+- Repo Mobile: https://github.com/leanguyen2619/SP25SE026_GSE48_WDCRBP_Mobile
+- Figma: https://www.figma.com/design/KKuRGzN4HZJ3xoNTRg9uGQ/SP25SE026_GSE48_WDCRBP?node-id=0-1&t=UTDQgOmDtdLQBLt2-1
+
+[07/01/2025]
+- Quy tắc:
+	+ Làm việc theo Scrum xài Jira (sprint = 1 tuần)
+	+ Làm git add cô vào
+	+ Trung thực (k code hộ)
+- Xem lại req trong đề tài (tăng giảm số lượng chức năng)
+- Xác định mục tiêu của hệ thống (điểm neo)
+
+[10/01/2025]
+- Buisiness requirement :
+	+ cách xác định mục tiêu dự án, phạm vi(context diagram)
+
+- User requirement: 
+	+ xác định các đối tượng thực hiện trên nền tảng của mình (guest, customers , thợ mộc ,admin....), mỗi 1 user có 1 goal.
+	+ task goal của từng user class
+
+- Functional requirement:
+	+ phân tích mỗi 1 user đó mục tiêu của họ khi tương tác với hệ thống là gì => functional requirement để hỗ trợ họ thực hiện cái goal đó 
+
+- Main flow
+	=>> sau 3 tiêu chí trên sẽ xác định đc main flow sẽ làm được đặt dịch vụ làm đồ gỗ theo nhu cầu => dùng swinlane để vẽ main flow 
+
+- Bussiness Rule question:
+	- nếu có 2 kiểu hàng
+		+ origin(cung cấp dịch vụ mẫu có sẵn) => tự động hóa( chọn thêm) => book lịch(giao hàng, lắp ráp) =>.....
+		+ customize(dựa theo bản vẽ xử lý thêm do người dùng thiết kế) => qua platform và thợ mộc => ..... 
+
+- Bài toán:
+	+ đặt lịch hẹn và nhân sự ( do 1 cty gia đình hay 1 cty ) => làm sao để bt ai chống lịch vào ngày khách đặt 	
+		=> có thể làm nếu nổi
+
+- Gợi ý từ mentor để xử lý bussiness rule:
+	+ hàng nhỏ thì mặc định nền tảng giao 
+	+ hàng lắp ráp=> sẽ có đội ngũ thợ mộc ik theo và nền tảng cùng ik
+	+ hàng có sẵn sẽ nhờ bên thứ ba cầm sản phẩm giao qua
+
+- Câu hỏi quan trọng:
+	- làm sao để doanh nghiệp hoàn tiền cho tk cá nhân? quy trình
+	- Giao hàng như nào, xếp lịch như nào, xếp nhân sự
+	- khi khách hàng đã quen với thợ mộc làm sao để nền tảng vẫn giữ được k.h
+	- 3 levels requirements?
