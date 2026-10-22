@@ -1,0 +1,65 @@
+Database Schema Documentation
+
+Overview
+
+Database/schema name: `eventmanagement`  
+DBMS: MySQL  
+Schema source: supplied `Event-Management.svg` and the reconstructed schema-preserving SQL script.
+
+The supplied SVG appears to show table definitions but does not clearly display relationship connector lines. Relationships documented below are taken from foreign-key definitions in the SQL schema where present.
+
+2. Table inventory
+
+┌──────────────────────────┬────────────────────────────────────────────┬─────────────────────┐
+│ Area                     │ Tables                                     │ Purpose                                         |
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Identity and access      │ account, role                              │ Account credentials/status and role            │
+│                          │                                            │ association                                    │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Event lifecycle          │ event, state_event, event_image,           │ Event details, state, images, schedule         │
+│                          │ event_schedule                             │                                                │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ User profiles            │ visitor, event_operator, checking_staff,   │ Role-specific profile records associated with  │
+│                          │ sponsor                                    │ accounts                                       │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Tickets and attendance   │ ticket, attendance                         │ Visitor/event ticket records and attendance    │
+│                          │                                            │ status                                         │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Event financial summary  │ event_profit                               │ Event-level total-profit value                 │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Sponsorship              │ sponsor_event, sponsor_program,            │ Sponsor-event association, contribution/profit │
+│                          │ sponsor_program_event                      │ percentage, sponsor programs                   │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Feedback                 │ state, feedback, feedback_question,        │ Feedback forms, questions, visitor answers     │
+│                          │ visitor_answer                             │                                                │
+├──────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ Surveys                  │ survey, survey_question, survey_answer     │ Event surveys, questions, and answer           │
+│                          │                                            │ records/options                                │
+└──────────────────────────┴────────────────────────────────────────────┴─────────────────────┘
+
+3. Principal relationships
+
+- `account.role_id` references `role.id`.
+- `event.account_id` references `account.id`; `event.state_event_id` references `state_event.id`.
+- `visitor.account_id`, `event_operator.account_id`, `checking_staff.account_id`, and `sponsor.account_id` reference `account.id`.
+- `event_image.event_id` and `event_schedule.event_id` reference `event.id`.
+- `ticket.event_id` references `event.id`; `ticket.visitor_id` references `visitor.id`.
+- `attendance.ticket_id` references `ticket.id`. `attendance.event_id` is also stored, but the supplied schema does not define a foreign key from it to `event.id`.
+- `sponsor_event` is a composite-key association between `event` and `sponsor`.
+- `sponsor_program_event` is a composite-key association between `event` and `sponsor_program`.
+- `feedback.event_id` references `event.id`; `feedback.state_id` references `state.state_id`; `feedback_question.feedbackid` references `feedback.feedbackid`.
+- `visitor_answer.feedback_question_id` references `feedback_question.feedback_questionid`; `visitor_answer.visitor_id` references `visitor.id`.
+- `survey.event_id` references `event.id`; `survey_question.survey_id` references `survey.survey_id`; `survey_answer.question_id` references `survey_question.question_id`.
+
+4. Setup
+
+1. Back up any existing database.
+2. Open `create-database.sql` in MySQL Workbench.
+3. Review the destructive `DROP TABLE IF EXISTS` statements before execution.
+4. Execute the script against a local/dev MySQL instance.
+5. Refresh the schema tree and verify that all tables exist.
+6. For Spring Boot schema-first validation, use `spring.jpa.hibernate.ddl-auto=none` after the SQL has created the schema.
+
+5. Demo data and security
+
+The script's demo records are fictional and intended for local development only. Password values are placeholders, not valid application credentials. Keep real credentials and JWT secrets out of source control.
